@@ -1,5 +1,9 @@
 Revision history for Perl module Data::Token
 
+0.0.4
+    * Fixed some typos in the documentation
+    * Changed format of this file to match CPAN::Changes::Spec
+
 0.0.3 2009-02-03
     * First release to CPAN
 
