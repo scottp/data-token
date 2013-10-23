@@ -57,10 +57,11 @@ as a filename on disk; key/value in a Hash etc.
 
 =head1 SECURITY
 
-These tokens are hard to guess. That does not mean there is no overlaps. Using
-a hashing system such as MD5 or SHA-1 still means possibility of overlap. MD5
-is a problem in signatures against large documents because you can change parts
-of the document without changing the meaning. But this system is only using MD5
+These tokens are hard to guess. That does not mean there are no overlaps.
+Using a hashing system such as MD5 or SHA-1 still means possibility of overlap.
+MD5 is a problem in signatures against large documents
+because you can change parts of the document without changing the meaning.
+But this system is only using MD5
 to hide the secret and add unpredictability. So MD5 or SHA-1 - Jury is out.
 
 =head2 Duplicates
@@ -68,9 +69,9 @@ to hide the secret and add unpredictability. So MD5 or SHA-1 - Jury is out.
 You should check for duplicates in your local store before returning. The
 chances of duplicates are extremely unlikely but better safe than sorry.
 
-=head2 Bruit force attack
+=head2 Brute force attack
 
-Although the numbers are unpredictable there is alwas bruit force attacks.
+Although the numbers are unpredictable there is alwas brute force attacks.
 These need to be guarded against. A system should increase the time delay on
 requests as the attack increases. If you are using Apache this can be done with
 other modules, or integrated into your solution.
