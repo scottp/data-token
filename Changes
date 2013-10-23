@@ -1,5 +1,8 @@
-Revision history for Data-Token
+Revision history for Perl module Data::Token
 
-0.0.1  Thu May 22 16:35:23 2008
-       Initial release.
+0.0.3 2009-02-03
+    * First release to CPAN
+
+0.0.1 2008-05-22 16:35:23
+    * Module created
 
